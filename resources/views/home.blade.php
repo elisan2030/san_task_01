@@ -51,7 +51,7 @@
         <div class="container">
             <div class="row col-md-12" style="padding:15px;">
             
-                <div class="card col-md-2" style="padding:15px;">
+                <div class="card col-md-2git status" style="padding:15px;">
                     <img class="card-img-top" src="{{ asset('images/1.jpg')}}" class="card-img-top" width="150px" height="200px" />
                     <div class="card-body">
                         <h4 class="card-title">John Doe</h4>
