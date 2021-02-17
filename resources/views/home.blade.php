@@ -49,13 +49,74 @@
         </nav>
 
         <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="{{ asset('images/prod1.jpg')}}" class="card-img-top" />
+            <div class="row col-md-12" style="padding:15px;">
+            
+                <div class="card col-md-2" style="padding:15px;">
+                    <img class="card-img-top" src="{{ asset('images/1.jpg')}}" class="card-img-top" width="150px" height="200px" />
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
+
+                <div class="card col-md-2" style="padding:15px;">
+                    <img class="card-img-top" src="{{ asset('images/2.jpg')}}" class="card-img-top" width="150px" height="200px" />
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card col-md-2" style="padding:15px;">
+                    <img class="card-img-top" src="{{ asset('images/3.jpg')}}" class="card-img-top" width="150px" height="200px" />
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card col-md-2" style="padding:15px;">
+                    <img class="card-img-top" src="{{ asset('images/4.jpg')}}" class="card-img-top" width="150px" height="200px" />
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card col-md-2" style="padding:15px;">
+                    <img class="card-img-top" src="{{ asset('images/5.jpg')}}" class="card-img-top" width="150px" height="200px" />
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card col-md-2" style="padding:15px;">
+                    <img class="card-img-top" src="{{ asset('images/6.jpg')}}" class="card-img-top" width="150px" height="200px" />
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card col-md-2" style="padding:15px;">
+                    <img class="card-img-top" src="{{ asset('images/7.jpg')}}" class="card-img-top" width="150px" height="200px" />
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>          
+
             </div>
+            <hr>
+
+                <ul class="pagination pagination-lg">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                </ul> 
         </div>
     </body>
 </html>
